@@ -47,7 +47,7 @@ export const ContactForm = () => {
 
             <div className="form-group">
                 <label htmlFor="details" className={label}>Detalles del Proyecto </label>
-                <input type="text" id="details" autoComplete="off" {...register("details")} placeholder="Material, medidas, cantidad, fecha estimada..." className={input} />
+                <textarea rows={4} id="details" autoComplete="off" {...register("details")} placeholder="Material, medidas, cantidad, fecha estimada..." className={`${input} resize-none`} />
                 {errors.details && <p className="text-[#EDE9DD]/75 font-medium font-mono text-xs lg:text-sm mt-1">*{errors.details.message}</p>}
             </div>
 

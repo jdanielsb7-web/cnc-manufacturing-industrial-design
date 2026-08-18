@@ -27,8 +27,11 @@ export const BUSINESS = {
         street: "Libertad 1597, Col. Agua Blanca Sur",
         locality: "Zapopan",
         region: "Jalisco",
+        postalCode: "45235",
         country: "MX",
     },
+    // URL canónica del perfil de Google Maps (por CID, no caduca como los enlaces cortos)
+    mapsUrl: "https://maps.google.com/?cid=13710545999008274055",
     foundingYear: 2014,
 } as const;
 
@@ -198,10 +201,11 @@ export const CONTACT_LINKS = [
         value: "cncmanstudio.ventas@gmail.com",
     },
     {
-        href: null,
+        href: BUSINESS.mapsUrl,
+        external: true,
         icon: HiOutlineLocationMarker,
         label: "Ubicación",
-        value: "Libertad 1597, Col. Agua Blanca Sur, Zapopan, Jalisco, México",
+        value: "Libertad 1597, Col. Agua Blanca Sur, 45235 Zapopan, Jalisco, México",
     },
     {
         href: null,

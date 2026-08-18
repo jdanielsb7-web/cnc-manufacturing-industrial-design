@@ -19,15 +19,17 @@ const localBusiness = {
     streetAddress: BUSINESS.address.street,
     addressLocality: BUSINESS.address.locality,
     addressRegion: BUSINESS.address.region,
+    postalCode: BUSINESS.address.postalCode,
     addressCountry: BUSINESS.address.country,
   },
+  hasMap: BUSINESS.mapsUrl,
   areaServed: [
     { "@type": "City", name: "Guadalajara" },
     { "@type": "City", name: "Zapopan" },
     { "@type": "City", name: "Tlaquepaque" },
     { "@type": "City", name: "Tonalá" },
   ],
-  sameAs: CONTACT_SOCIAL.map((social) => social.href),
+  sameAs: [...CONTACT_SOCIAL.map((social) => social.href), BUSINESS.mapsUrl],
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
