@@ -1,21 +1,10 @@
-import {
-    HiOutlineScissors,
-    HiOutlineCpuChip,
-    HiOutlineLightBulb,
-    HiOutlineCube,
-    HiOutlineBuildingStorefront,
-    HiOutlineGift,
-    HiOutlinePencilSquare,
-    HiOutlineChatBubbleLeftRight,
-    HiOutlineDocumentText,
-    HiOutlineTruck,
-} from "react-icons/hi2"
+import { HiOutlineChatBubbleLeftRight, HiOutlineDocumentText, HiOutlineTruck } from "react-icons/hi2"
 import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
 import { HiOutlineClock, HiOutlineLocationMarker, HiOutlineMail } from "react-icons/hi";
 
 export const SITE = {
     name: "CNC Manufacturing",
-    url: "https://manufacturingcncstudio.com",
+    url: "https://cncmanufacturingmx.com/",
     locale: "es_MX",
     title: "CNC Manufacturing | Letras 3D, corte láser y CNC en Guadalajara",
     description:
@@ -58,7 +47,6 @@ export const SERVICES = [
         index: "01",
         title: "Router CNC",
         description: "Vaciados, relieves y ensambles con repetibilidad exacta.",
-        icon: HiOutlineCpuChip,
         img: "/media/4.webp",
         alt: "Router CNC desbastando la cavidad de una charola de madera en forma de corazón",
     },
@@ -66,7 +54,6 @@ export const SERVICES = [
         index: "02",
         title: "Letras 3D Luminosas",
         description: "Letreros volumétricos con iluminación integrada.",
-        icon: HiOutlineLightBulb,
         img: "/media/6.webp",
         alt: "Letras luminosas tipo marquesina con focos LED integrados, fabricadas en impresión 3D",
     },
@@ -74,7 +61,6 @@ export const SERVICES = [
         index: "03",
         title: "Corte y Grabado Láser",
         description: "Detalle fino sobre madera, MDF, acrílico y piel.",
-        icon: HiOutlineScissors,
         img: "/media/9.webp",
         alt: "Caja de MDF con grabado láser de un logotipo rodeado de ornamento floral",
     },
@@ -82,7 +68,6 @@ export const SERVICES = [
         index: "04",
         title: "Impresión 3D",
         description: "Prototipos y geometrías que el corte no resuelve.",
-        icon: HiOutlineCube,
         img: "/media/44.webp",
         alt: "Impresora 3D depositando filamento azul mientras construye una torre en detalle fino",
     },
@@ -90,7 +75,6 @@ export const SERVICES = [
         index: "05",
         title: "Regalos Corporativos",
         description: "Kits, reconocimientos y estuches con tu marca.",
-        icon: HiOutlineGift,
         img: "/media/34.webp",
         alt: "Caja de madera quemada abierta con interior de espuma troquelada a la medida de un kit tecnológico",
     },
@@ -98,7 +82,6 @@ export const SERVICES = [
         index: "06",
         title: "Exhibidores Comerciales",
         description: "Displays y mobiliario de punto de venta.",
-        icon: HiOutlineBuildingStorefront,
         img: "/media/29.webp",
         alt: "Mueble curvo de MDF con curvado kerf montado en el taller",
     },
@@ -106,7 +89,6 @@ export const SERVICES = [
         index: "07",
         title: "Fabricación sobre Diseño",
         description: "De tu plano o tu idea suelta a la pieza terminada.",
-        icon: HiOutlinePencilSquare,
         img: "/media/33.webp",
         alt: "Estructura larga de mueble a medida en construcción dentro del taller",
     },

@@ -25,7 +25,7 @@ export const MobileNav = ({ menuVisible, activeSection, toggleMenu }: MobileNavP
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(82,129,198,0.10),transparent_55%)]" />
 
             <div
-                className={`absolute inset-0 origin-top overflow-hidden flex flex-col py-5 px-5 transition-transform duration-300 ease-out ${menuVisible ? "translate-y-0" : "-translate-y-full"
+                className={`absolute inset-0 origin-top overflow-y-auto overflow-x-hidden overscroll-contain flex flex-col py-5 px-5 transition-transform duration-300 ease-out ${menuVisible ? "translate-y-0" : "-translate-y-full"
                     }`}
             >
                 <span className="text-xs lg:text-sm font-mono font-medium tracking-[0.3em] uppercase text-white">
