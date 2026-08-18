@@ -15,7 +15,7 @@ export const Hero = ({ }) => {
 
             <div className="absolute inset-0 -z-10 bg-[repeating-linear-gradient(135deg,rgba(82,129,198,0.12)_0px,rgba(82,129,198,0.12)_1.5px,transparent_1.5px,transparent_9px)] mix-blend-screen" />
 
-            <motion.div {...staggerContainerOnLoad} className="relative max-w-7xl mx-auto px-5 pt-26 pb-10 lg:pt-16 lg:pb-0 flex flex-col lg:flex-row lg:items-center justify-between gap-10 lg:gap-16 w-full">
+            <motion.div {...staggerContainerOnLoad} className="relative max-w-7xl mx-auto px-5 pt-26 pb-10 lg:pt-16 lg:pb-0 flex flex-col lg:flex-row justify-between gap-10 lg:gap-16 w-full">
 
                 <div className="flex flex-col gap-5 items-start justify-center lg:w-1/2">
 
