@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant smallMedium (@media (min-width: 400px));
+
+@custom-variant hover (&:hover);
+
+@theme {
+  /* Textos corridos, párrafos, inputs */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Títulos, botones, navegación y cifras — condensada industrial */
+  --font-display: var(--font-oswald), "Arial Narrow", ui-sans-serif, system-ui, sans-serif;
+
+  /* Etiquetas técnicas: [ 01 — Nosotros ], EJE_X, tags, labels */
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
