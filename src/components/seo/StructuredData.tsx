@@ -21,10 +21,12 @@ const localBusiness = {
     addressRegion: BUSINESS.address.region,
     addressCountry: BUSINESS.address.country,
   },
-  areaServed: {
-    "@type": "City",
-    name: "Zapopan, Jalisco",
-  },
+  areaServed: [
+    { "@type": "City", name: "Guadalajara" },
+    { "@type": "City", name: "Zapopan" },
+    { "@type": "City", name: "Tlaquepaque" },
+    { "@type": "City", name: "Tonalá" },
+  ],
   sameAs: CONTACT_SOCIAL.map((social) => social.href),
   openingHoursSpecification: [
     {

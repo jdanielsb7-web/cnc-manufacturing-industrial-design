@@ -22,8 +22,8 @@ export const SITE = {
         "Taller de fabricación digital en Guadalajara: letras 3D luminosas, corte y grabado láser, router CNC, impresión 3D, exhibidores comerciales y regalos corporativos. Cotización sin compromiso.",
     shortDescription:
         "Letras 3D luminosas, corte láser, router CNC e impresión 3D. Piezas a medida para empresas, arquitectos, diseñadores y agencias.",
-    // Tarjeta de vista previa (WhatsApp, Facebook, X): 1200x630, la proporción 1.91:1 que esperan.
-    ogImage: "/og-image.webp",
+    ogImage: "/og-image.jpeg",
+    ogImageType: "image/jpeg",
     ogImageWidth: 1200,
     ogImageHeight: 630,
     ogImageAlt: "Logotipo de CNC Manufacturing · Industrial Design sobre fondo azul marino, con el lema: diseño y manufactura láser y router CNC",
